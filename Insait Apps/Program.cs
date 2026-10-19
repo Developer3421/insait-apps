@@ -1,7 +1,7 @@
 ﻿using Avalonia;
 using System;
 
-namespace Insait_Platform;
+namespace Insait_Apps;
 
 class Program
 {

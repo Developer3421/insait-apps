@@ -1,0 +1,35 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Insait_Apps.App"
+             RequestedThemeVariant="Dark">
+
+    <Application.Resources>
+        <Color x:Key="BackgroundColor">#FF120A2A</Color>
+        <Color x:Key="CardBackgroundColor">#FF281A4C</Color>
+        <Color x:Key="AccentColor">#FF6B1D9F</Color>
+        <Color x:Key="ForegroundColor">#FFFFFFFF</Color>
+        <Color x:Key="SecondaryForegroundColor">#FFB5A8D5</Color>
+        <Color x:Key="HoverClose">#FFD83B1B</Color>
+
+        <Color x:Key="TitleBarBackground">#FFE8E8F2</Color>
+        <Color x:Key="TitleBarForeground">#FF120A2A</Color>
+        <Color x:Key="TitleBarHover">#FFD0D0DC</Color>
+        <Color x:Key="SeparatorColor">#FFA0A0B0</Color>
+
+        <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackgroundColor}" />
+        <SolidColorBrush x:Key="CardBackgroundBrush" Color="{StaticResource CardBackgroundColor}" />
+        <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}" />
+        <SolidColorBrush x:Key="ForegroundBrush" Color="{StaticResource ForegroundColor}" />
+        <SolidColorBrush x:Key="SecondaryForegroundBrush" Color="{StaticResource SecondaryForegroundColor}" />
+        <SolidColorBrush x:Key="HoverCloseBrush" Color="{StaticResource HoverClose}" />
+
+        <SolidColorBrush x:Key="TitleBarBackgroundBrush" Color="{StaticResource TitleBarBackground}" />
+        <SolidColorBrush x:Key="TitleBarForegroundBrush" Color="{StaticResource TitleBarForeground}" />
+        <SolidColorBrush x:Key="TitleBarHoverBrush" Color="{StaticResource TitleBarHover}" />
+        <SolidColorBrush x:Key="SeparatorBrush" Color="{StaticResource SeparatorColor}" />
+    </Application.Resources>
+
+    <Application.Styles>
+        <FluentTheme />
+    </Application.Styles>
+</Application>
